@@ -9,5 +9,17 @@ module.exports= {
     deSever:{
         port:8080,
         contentBase: './public'
+    },
+    module: {
+        loaders: [{
+            test: /.js?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+                presets: ['es2015'],
+                plugins: ['transform-object-rest-spread']
+            }    
+
+        }]
     }
-}
+} 
