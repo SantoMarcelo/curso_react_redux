@@ -1,7 +1,6 @@
 {
   "name": "exercicios_webpack",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot"
@@ -12,5 +11,18 @@
   "devDependencies": {
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  }
+  },
+  "dependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantoMarcelo/curso_react_redux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantoMarcelo/curso_react_redux/issues"
+  },
+  "homepage": "https://github.com/SantoMarcelo/curso_react_redux#readme",
+  "description": ""
 }
