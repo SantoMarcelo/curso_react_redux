@@ -6,7 +6,7 @@ module.exports= {
         path: __dirname + '/public',
         filename: './bundle.js'
     },
-    deSever:{
+    devSever:{
         port:8080,
         contentBase: './public'
     },
@@ -16,10 +16,9 @@ module.exports= {
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                presets: ['es2015'],
+                presets: ['es2015', 'react'],
                 plugins: ['transform-object-rest-spread']
-            }    
-
+            }  
         }]
     }
 } 
